@@ -1,0 +1,38 @@
+Code:
+
+import java.util.Arrays;
+import java.util.List;
+public class Main {
+public static void main(String[] args) {
+List<Integer>Salaries=Arrays.asList(10000,20000,30000);
+Salaries.stream()
+              .map(Salary->Salary+0.10)
+              .forEach(System.out::println);
+}
+}
+
+Output:
+10000.1
+20000.1
+30000.1
+
+
+
+Code:
+
+import java.util.Arrays;
+import java.util.List;
+public class Main {
+    public static void main(String[] args) {
+        List<Integer> salaries = Arrays.asList(10000, 20000, 30000);
+        salaries.stream()
+                .map(salary -> salary + (salary * 10 / 100))
+                .forEach(System.out::println);
+    }
+}
+
+
+Output:
+11000
+22000
+33000
