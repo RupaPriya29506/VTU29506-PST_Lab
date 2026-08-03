@@ -37,7 +37,7 @@ public class RealTimeStreamAnalyticsEngine {
 
 
 Output:
-Sample Input:
+Sample Input
 6
 S1 50
 S2 85
@@ -45,7 +45,7 @@ S1 60
 S3 90
 S2 70
 S1 40
-Sample Output:
+Sample Output
 S3 90.0
 S2 77.5
 S1 60.0
